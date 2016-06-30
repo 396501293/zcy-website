@@ -29,7 +29,7 @@ function browserSyncInit(baseDir, browser) {
   });
 }
 
-gulp.task('serve', ['express:dev', 'watch'], function () {
+gulp.task('serve', ['express:dev', 'watch', 'styles', 'scripts'], function () {
   browserSyncInit([conf.paths.tmp, conf.paths.src]);
 });
 
