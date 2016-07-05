@@ -15,9 +15,10 @@
 //    direction: "vertical"            // You can now define the direction of the One Page Scroll animation. Options available are "vertical" and "horizontal". The default value is "vertical".  
 // });
 
-
-$(".main").onepage_scroll({
-  sectionContainer: "section",
-  responsiveFallback: 600,
-  loop: true
-});
+if($(".main").length != 0){
+	$(".main").onepage_scroll({
+  	sectionContainer: "section",
+  	responsiveFallback: 600,
+  	loop: true
+	});
+}
