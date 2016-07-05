@@ -6,8 +6,8 @@
   </div>
   <div class="top-nav-wrapper">
     <ul class="top-nav top-nav-right">
-      <li id='todo-nav'>
-        <a href="./zcy" class="nav-toggle-btn">
+      <li id="nav-zcy">
+        <a href="./zcy" <% if (url=="zcy"){ %>class="active"<% } %>>
           <div class="mb-5">
             GPCP
           </div>
@@ -16,8 +16,8 @@
           </div>
         </a>
       </li>
-      <li id='msg-nav'>
-        <a href="./about" class="nav-toggle-btn">
+      <li id="nav-about">
+        <a href="./about" <% if (url=="about"){ %>class="active"<% } %>>
           <div class="mb-5">
             About us
           </div>
@@ -26,8 +26,8 @@
           </div>
         </a>
       </li>
-      <li>
-        <a href="./contact_us" class="nav-toggle-btn">
+      <li id="nav-contact-us">
+        <a href="./contact_us" <% if (url=="contact_us"){ %>class="active"<% } %>>
           <div class="mb-5">
             Contact us
           </div>
@@ -36,8 +36,8 @@
           </div>
         </a>
       </li>
-      <li class="user-info-nav-item">
-        <a href="./join_us" class="nav-toggle-btn">
+      <li class="nav-join-us">
+        <a href="./join_us" <% if (url=="join_us"){ %>class="active"<% } %>>
           <div class="mb-5">
             Join us
           </div>
