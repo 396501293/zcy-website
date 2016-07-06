@@ -4,33 +4,6 @@ body
   font-size: 14px
 .mb-5
   margin-bottom: 5px
-.info-block
-  max-width: 600px
-  margin-left: auto
-  margin-right: auto
-  position: relative
-  top: 200px
-  .title
-    font-size: 25px
-    color: red
-    float: left
-    height: 100px
-    border-right: solid 1px
-    border-right-color: grey
-    padding-right: 25px
-    margin-right: 30px
-  .content
-    width: 300px
-    float: left
-    .row
-      width: 100%
-      line-height: 30px
-      .content-key
-        float: left
-        width: 20%
-      .content-value
-        float: left
-        width: 80%
 
 .index
   height: 700px
@@ -42,16 +15,15 @@ body
     text-align: center
     margin-left: auto
     margin-right: auto
-    color: #00BCD4
-    .zcy-title
-      font-size: 50px
-    .border
-      width: 66px
-      height: 1px
-      margin: auto
-      background: #00BCD4
-    .zcy-detail
-      font-size: 34px
+    .zcy-detail-zh
+      font-size: 32px
+    .zcy-detail-en
+      padding-top: 26px
+      padding-bottom: 26px
+      font-size: 14px
+      color: #24344E
+    .zcy-sub-detail
+      font-size: 18px
   .bottom-div
     position: relative
     top: 436px
@@ -66,37 +38,44 @@ body
       left: 50px
       width: 740px
       height: 51px
-      background-color: rgba(0, 188, 212, 0.27)      
+      background-color: rgba(255, 255, 255, 0.27)      
       padding-top: 19px
       padding-left: 23px
       padding-right: 23px
       padding-bottom: 18px
       >div
         display: inline-block
-
+        float: left
+      a
+        text-decoration: none
+        color: white
+        &:visited
+          color: white
+        &:hover
+          color: #FE5B45
+        &.active 
+          color: black
       .left-1
         .more-info
+          float: left
           padding-top: 5px
           width: 32px
           color: #F6E401
+        .icon-more
+          float: left
+          position: relative
+          top: 8px
+          left: -6px
       .left-2
         div:nth-child(2)
-          margin-top: 2px
-          margin-bottom: 2px
+          margin-top: 10px
+          margin-bottom: 10px
       .left-3
+        margin-top: -4px
         margin-left: 35px
         div:nth-child(2)
-          margin-top: 2px
-          margin-bottom: 2px
-        a
-          text-decoration: none
-          color: white
-          &:visited
-            color: white
-          &:hover
-            color: red
-          &.active 
-            color: black
+          margin-top: 10px
+          margin-bottom: 10px
       .circle
         border: 1px solid #FFFFFF
         display: inline-block
@@ -108,14 +87,17 @@ body
     .bottom-right
       float: right
       vertical-align: bottom
+      a
+        text-decoration: none
       .contain
         width: 120px
-        height: 57px
-        border: solid 1px #00BCD4
+        height: 40px
+        border: solid 1px #FE5B45
         border-radius: 4px
         padding: 10px
-        color: #00BCD4
+        color: #FE5B45
         .title
+          text-align: right
           font-size: 20px
         .detail
           font-size: 10px
