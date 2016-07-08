@@ -15,4 +15,5 @@ $('.join_us ul li a').on('click', function(e){
 // 人才招聘toggle按钮事件
 $('.join_us .toggle-icon a').on('click', function(){
   $(this).parents(".job-title").next().slideToggle();
+  $(this).find("img").toggleClass("reversal");
 });

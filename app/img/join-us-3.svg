@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="431px" height="155px" viewBox="0 0 431 155" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.3 (12081) - http://www.bohemiancoding.com/sketch -->
+    <title>成组 copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="成组-copy" sketch:type="MSLayerGroup" transform="translate(-5.000000, 1.000000)">
+            <text id="深入挖掘客户需求，" sketch:type="MSTextLayer" font-family="Microsoft YaHei" font-size="12" font-weight="normal" sketch:alignment="middle" line-spacing="21" fill="#24344E">
+                <tspan x="17.5" y="110">深入挖掘客户需求，</tspan>
+                <tspan x="5.5" y="131">为客户提供极至的产品，</tspan>
+                <tspan x="5.5" y="152">不断提升客户的产品体验</tspan>
+                <tspan x="137.5" y="152"></tspan>
+            </text>
+            <text id="互相尊重，彼此信任，" sketch:type="MSTextLayer" font-family="Microsoft YaHei" font-size="12" font-weight="normal" line-spacing="19" fill="#24344E">
+                <tspan x="175" y="110">互相尊重，彼此信任，</tspan>
+                <tspan x="175" y="129">乐于协作，达成目标，</tspan>
+                <tspan x="175" y="148">因为信任，所以简单</tspan>
+            </text>
+            <text id="理想、行动、坚持" sketch:type="MSTextLayer" font-family="Microsoft YaHei" font-size="12" font-weight="normal" fill="#24344E">
+                <tspan x="340" y="104">理想、行动、坚持</tspan>
+            </text>
+            <g id="成组" transform="translate(33.000000, 0.000000)">
+                <circle id="圆形-482" stroke="#00BCD4" sketch:type="MSShapeGroup" cx="38.5" cy="38.5" r="38.5"></circle>
+                <circle id="圆形-482-copy" stroke="#FE5B45" sketch:type="MSShapeGroup" cx="197.5" cy="38.5" r="38.5"></circle>
+                <circle id="圆形-482-copy-2" stroke="#0476FB" sketch:type="MSShapeGroup" cx="356.5" cy="38.5" r="38.5"></circle>
+                <text id="客户" sketch:type="MSTextLayer" font-family="Microsoft YaHei" font-size="16" font-weight="normal" fill="#00BCD4">
+                    <tspan x="22" y="33">客户</tspan>
+                    <tspan x="22" y="54">至上</tspan>
+                </text>
+                <text id="团队" sketch:type="MSTextLayer" font-family="Microsoft YaHei" font-size="16" font-weight="normal" fill="#FE5B45">
+                    <tspan x="182" y="33">团队</tspan>
+                    <tspan x="182" y="54">协作</tspan>
+                </text>
+                <text id="创业" sketch:type="MSTextLayer" font-family="Microsoft YaHei" font-size="16" font-weight="normal" fill="#0476FB">
+                    <tspan x="341" y="33">创业</tspan>
+                    <tspan x="341" y="54">激情</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>
