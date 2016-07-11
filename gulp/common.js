@@ -25,8 +25,8 @@ gulp.task('mkdir:logs', function(done){
 gulp.task('metadata', function(done) {
   return gulp.src([
 	  'package.json',
-    '*.sh',
-	  // 'bower.json',
+    // '*.sh',
+	  'bower.json',
 	  'LICENSE'
 	  ]).pipe(gulp.dest('./dist'));
 });

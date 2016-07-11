@@ -3,7 +3,12 @@ var app = express();
 var http = require('http');
 var util = require('util');
 
+// set default env production
+process.env.NODE_ENV = process.env.NODE_ENV || 'production';
+
 server = http.createServer(app);
+
+app.set('env', process.env.NODE_ENV);
 
 // Express settings
 require('./lib/express')(app);

@@ -3,8 +3,8 @@ $('.join_us ul li a').on('click', function(e){
   if($(this).hasClass('active')){
     return;
   }else{
-    let name = $(this).prop("name");
-    let targetName = name + "-div";
+    var name = $(this).prop("name");
+    var targetName = name + "-div";
     $('.join_us').find('a').removeClass("active");
     $(this).addClass("active");
     $('.tab-content').prop("hidden", true);

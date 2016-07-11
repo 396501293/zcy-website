@@ -2,8 +2,12 @@
 <html>
 <head>
   <title>test</title>
+  <!-- build:css({.tmp,app}) styles/main.css -->
+  <!-- bower:css -->
   <link rel="stylesheet" type="text/css" href="styles/main.css">
   <link rel="stylesheet" type="text/css" href="styles/onepage-scroll.css">
+  <!-- endbower -->
+  <!-- endbuild -->
   <link rel="shortcut icon" href="img/favicon.png">
 </head>
 <body class="body-<%= url %>">
@@ -11,11 +15,15 @@
   <%- include(url) %>
 </body>
 
-<script src="jquery/dist/jquery.js"></script>
+<!-- build:js({.tmp,app})  scripts/scripts.js -->
+<!-- bower:js -->
+<script src="bower_components/jquery/dist/jquery.js"></script>
 <% if (url == "zcy") {%>
 <script src="scripts/jquery.onepage-scroll.js"></script>
 <% } %>
 <script src="scripts/zcy.js"></script>
 <script src="scripts/about.js"></script>
 <script src="scripts/join_us.js"></script>
+<!-- endbower -->
+<!-- endbuild -->
 </html>

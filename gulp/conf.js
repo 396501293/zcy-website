@@ -32,7 +32,7 @@ exports.paths = {
  */
 exports.wiredep = {
   // exclude: [/jquery/],
-  directory: 'bower_components',
+  directory: 'app/bower_components',
   ignorePath: '../../'
 };
 
